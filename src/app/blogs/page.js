@@ -11,7 +11,7 @@ const Blogs = () => {
 
   useEffect(() => {
     (async () => {
-      const resp = await fetch('http://localhost:3000/api/blog/allBlogs', {
+      const resp = await fetch('/api/blog/allBlogs', {
         method: "GET", 
         mode: "cors", 
         headers: {

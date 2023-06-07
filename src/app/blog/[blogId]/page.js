@@ -12,7 +12,7 @@ const Blog = ({ params }) => {
 
   useEffect(() => {
     (async () => {
-      const resp = await fetch('http://localhost:3000/api/blog/blogWithId', {
+      const resp = await fetch('/api/blog/blogWithId', {
         method: "POST", 
         mode: "cors", 
         headers: {
