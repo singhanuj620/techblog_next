@@ -1,0 +1,45 @@
+.blogContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.imageDiv{
+    width: 20rem;
+    height: 12rem;
+    position: relative;
+    object-fit: contain;
+
+}
+
+.blog_main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 10px solid yellow;
+    margin-bottom: 2%;
+}
+
+.blog_text{
+    width: 70%;
+    padding: 1%;
+}
+
+.blog_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.blog_desc{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.blogs_page{
+    padding: 5%;
+}

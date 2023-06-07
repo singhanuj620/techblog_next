@@ -1,0 +1,19 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  
+.nav li {
+    display: flex;
+    padding: 2px 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }

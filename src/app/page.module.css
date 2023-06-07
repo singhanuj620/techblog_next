@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0rem;
+  min-height: 90vh;
+}
+
+.title{
+  margin-top: 2%;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.description{
+  font-size: 1.6rem;
+  font-weight: 200;
+  font-style: italic;
+  margin: 2% 0%;
+}
+
+.yellowBar{
+  background-color: yellow;
+  font-weight: 500;
+}
+
+.homeBlogContainer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 2%;
+}
